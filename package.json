@@ -1,0 +1,10 @@
+{
+  "name": "magpie-firstrule-go",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Magpie Agent integration for FirstRule Go",
+  "type": "module",
+  "scripts": { "test": "node --test" },
+  "files": ["agent.js", "README.md"],
+  "magpie": { "agent": "./agent.js" }
+}
